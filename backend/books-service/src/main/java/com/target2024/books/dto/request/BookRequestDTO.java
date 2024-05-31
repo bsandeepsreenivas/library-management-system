@@ -9,12 +9,10 @@ import lombok.ToString;
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
-public class BookDTO {
-
+public class BookRequestDTO {
     private String name;
     private String author;
     private String publication;
-    private int totalItems;
-    private String updateReason;
-
+    private String department;
+    private int totalBooks;
 }

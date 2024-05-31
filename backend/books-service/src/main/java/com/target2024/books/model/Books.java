@@ -20,7 +20,9 @@ public class Books {
     private String name;
     private String author;
     private String publication;
-    private int totalItems;
+    private String department;
+    private int totalBooks;
+    private int availableBooks;
     private LocalDateTime createdAt;
     private LocalDateTime updatedAt;
     private String updateReason;
